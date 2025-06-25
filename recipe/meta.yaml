@@ -20,6 +20,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - versioningit
+    - setuptools
   run:
     - python >={{ python_min }}
     - cmeutils >=1.3.0
